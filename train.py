@@ -8,5 +8,5 @@ decoder.train(
     questions=questions,
     batch_size=10,
     epochs=100,
-    save_to_file_path="pretrained_models/daily_dialog_point2dropout.hdf5"
+    save_to_file_path="pretrained_models/daily_dialog.hdf5"
 ) 
