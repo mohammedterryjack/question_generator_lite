@@ -37,7 +37,7 @@ class SemanticCaptioningCharacterLSTMDecoder:
             character_vector_length=self.number_of_characters,
             character_sequence_length=self.recursion_depth,
             hidden_layer_length=100,
-            dropout_rate=.2,
+            dropout_rate=.0,
             activation="relu",
             loss = "categorical_crossentropy",
             optimisation= "adam",
